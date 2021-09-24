@@ -97,7 +97,17 @@ Jawabannya adalah : putih orange, orange, putih hijau, biru, putih biru, hijau, 
 ### Soal 7
 ### Soal 8
 ### Soal 9
+
+Pada soal nomor 9 kita diminta untuk mencari file ysng bernamakan secret.zip, kita diharuskan mendownload file tersebut menjadi bentuk .zip dan membuka file nya, namun file tersebut memiliki kunci yang harus didapatkan dari history.tct,
+
+pertama kita mencari file tersebut dengan command  ```ftp.command contains secret.zip``` setelah itu kita mengambil salah satu file dan melakukan ```follow > tcp stream``` ,kita menjadikan file tersebut menjadi file .zip
+
+
+untuk membuka file tersebut kita harus mengerjakan terlebih dahulu nomer 10
+
 ### Soal 10
+
+
 ### Soal 11
 ### Soal 12
 ### Soal 13
