@@ -125,6 +125,10 @@ lalu didalamnya terdapat materi sistem operasi yang mengatakan bahwa untuk membu
 kita diharuskan mencari file tersebut menggunakan command ```ftp.data command contains bukanapaapa.txt``` lalu membuka file tersebut dan didalamnya terdapat beberapa kata kata yang merupakan password untuk membuka file tersebut
 
 ![ftpbukan](https://user-images.githubusercontent.com/77099292/134664398-0ca74a4a-642c-4ba9-98c0-ad50a280873e.png)
+
+![bukanapaapa](https://user-images.githubusercontent.com/77099292/134664821-b2d16a9f-39e2-48da-bb94-1ab951f9c6ff.png)
+
+ 
  
  lalu setelah itu terbuka file berupa gambar
  
