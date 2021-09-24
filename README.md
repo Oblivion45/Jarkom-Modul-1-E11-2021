@@ -98,14 +98,21 @@ Jawabannya adalah : putih orange, orange, putih hijau, biru, putih biru, hijau, 
 ### Soal 8
 ### Soal 9
 
-Pada soal nomor 9 kita diminta untuk mencari file ysng bernamakan secret.zip, kita diharuskan mendownload file tersebut menjadi bentuk .zip dan membuka file nya, namun file tersebut memiliki kunci yang harus didapatkan dari history.tct,
+Pada soal nomor 9 kita diminta untuk mencari file ysng bernamakan secret.zip, kita diharuskan mendownload file tersebut menjadi bentuk .zip dan membuka file nya, namun file tersebut memiliki kunci yang harus didapatkan dari history.txt,
 
-pertama kita mencari file tersebut dengan command  ```ftp.command contains secret.zip``` setelah itu kita mengambil salah satu file dan melakukan ```follow > tcp stream``` ,kita menjadikan file tersebut menjadi file .zip
+![jrkmmm](https://user-images.githubusercontent.com/77099292/134660572-4ce2b47c-ef61-408c-be63-b23a15c3c450.png)
+
+pertama kita mencari file tersebut dengan command  ```ftp.data command contains secret.zip``` setelah itu kita mengambil salah satu file dan melakukan ```follow > tcp stream``` ,kita menjadikan file tersebut menjadi file .zip
+
+![nomor9](https://user-images.githubusercontent.com/77099292/134661034-c4f8905c-4310-4bbc-9aee-860acefdcf26.png)
+
+![nomorsemb](https://user-images.githubusercontent.com/77099292/134661423-60594e09-e72c-4303-b9fb-bc370941117f.png)
 
 
 untuk membuka file tersebut kita harus mengerjakan terlebih dahulu nomer 10
 
 ### Soal 10
+
 
 
 ### Soal 11
