@@ -137,9 +137,43 @@ kita diharuskan mencari file tersebut menggunakan command ```ftp.data command co
  
 
 ### Soal 11
+
+pada soal ini kita diminta untuk melakukan Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80, kita menggunakan capture filter ```port 80``` sehingga menjadi seperti ini
+
+![11](https://user-images.githubusercontent.com/77099292/134665751-750b8d24-f0a0-450f-8490-7b32950f8970.png)
+
+![11a](https://user-images.githubusercontent.com/77099292/134665756-467f32a1-3712-48a8-baa1-9f678aed7cfd.png)
+
+
 ### Soal 12
+
+pada soal ini kita diminta untuk melakukan filter sehingga wireshark hanya mengambil paket yang mengandung port 21 menggunakan capture filter ```port 21```, tetapi pada pengerjaannya kami harus masuk ke dalam bagian loop terlebih dahulu dan melakukan ftp pada 127.0.0.1 lalu akan terjadi filter yang diinginkan.
+
+
+![121](https://user-images.githubusercontent.com/77099292/134666527-fdd83c6c-35e8-459b-98a7-7e30ad63422c.png)
+
+![nomor12](https://user-images.githubusercontent.com/77099292/134666529-d299e659-e982-465c-8a63-69d13a97cf9a.png)
+
+
 ### Soal 13
+
+pada soal ini kita diminta untuk melakukan filter sehingga wireshark hanya menampilkan paket yang menuju port 443 menggunakan command dst ```port 443```
+
+![13](https://user-images.githubusercontent.com/77099292/134666828-5176697f-103b-4dee-aa35-3ed1266ffba3.png)
+
+![131](https://user-images.githubusercontent.com/77099292/134666841-bc0458ac-23c8-418c-b9ec-0bdcd79a6bf4.png)
+
 ### Soal 14
+
+pada soal ini kita diminta untuk melakukan filter sehingga wireshark hanya mengambil paket yang tujuannya ke kemenag.go.id  menggunakan capture filter ``` dst host kemenag.go.id```
+
+![kemenag](https://user-images.githubusercontent.com/77099292/134667112-997ed909-82dd-49ee-9703-953430a757a0.png)
+
+![kemenag1](https://user-images.githubusercontent.com/77099292/134667123-08a4861c-8729-49fc-9f58-e9f0cb6f529d.png)
+
+
+
+
 ### Soal 15
 
   
