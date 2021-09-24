@@ -113,7 +113,24 @@ untuk membuka file tersebut kita harus mengerjakan terlebih dahulu nomer 10
 
 ### Soal 10
 
+pada nomor 10 kita diharuskan mencari password yang terdapat pada history.txt untuk membuka file yang berada dalam secret.zip, untuk command yang digunakan masih sama seperti nomor 9 menggunakan ```ftp.data command contains history.txt``` 
 
+![history](https://user-images.githubusercontent.com/77099292/134664067-86d47a9b-3465-4920-b869-f85f21aae3d7.png)
+
+
+lalu didalamnya terdapat materi sistem operasi yang mengatakan bahwa untuk membuka file secret.zip menggunakan bukanapaapa.txt
+
+![bukn](https://user-images.githubusercontent.com/77099292/134664145-367c9c64-04e7-4e90-a909-759bd2cf8990.png)
+
+kita diharuskan mencari file tersebut menggunakan command ```ftp.data command contains bukanapaapa.txt``` lalu membuka file tersebut dan didalamnya terdapat beberapa kata kata yang merupakan password untuk membuka file tersebut
+
+![ftpbukan](https://user-images.githubusercontent.com/77099292/134664398-0ca74a4a-642c-4ba9-98c0-ad50a280873e.png)
+ 
+ lalu setelah itu terbuka file berupa gambar
+ 
+ ![luffy](https://user-images.githubusercontent.com/77099292/134664659-feee4aa0-2860-41d3-bdcc-eb3ab70fd91b.png)
+
+ 
 
 ### Soal 11
 ### Soal 12
