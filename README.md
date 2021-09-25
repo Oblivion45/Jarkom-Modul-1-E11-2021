@@ -93,9 +93,63 @@ Kemudian jika kita login ke portal.ichimarumaru.tech, maka akan muncul soal lagi
 Pertanyaannya adalah : Sebutkan urutan konfigurasi pengkabelan T568B!
 
 Jawabannya adalah : putih orange, orange, putih hijau, biru, putih biru, hijau, putih coklat, coklat.
+
 ### Soal 6
+
+Cari username dan password ketika melakukan login ke FTP Server
+
+Langkah awal untuk mencari User dan Password yaitu dengan melakukan display filter yaitu 
+
+`“ftp contains USER”`
+
+[![6.1.png](https://i.postimg.cc/B6b4HQCr/unnamed.png)](https://postimg.cc/xkwwSQh5)
+
+Kemudian kita melakukan `follow tcp stream` untuk mendapatkan password dengan melihat log user tersebut.
+
+[![6.2.png](https://i.postimg.cc/9fFrg2pp/unnamed-1.png)](https://postimg.cc/182m4Lbn)
+
+Sehingga didapat
+
+Username : `secretuser`
+
+Password : `aku.pengen.pw.aja`
+
 ### Soal 7
+
+Ada 500 file zip yang disimpan ke FTP Server dengan nama 0.zip, 1.zip, 2.zip, ..., 499.zip. Simpan dan Buka file pdf tersebut. (Hint = nama pdf-nya "Real.pdf")
+
+Pertama-tama kita akan mencari zip yang disimpan ke FTP Server yang didalamnya terdapat file pdf yang namanya Real.pdf dengan menggunakan filter 
+
+`ftp-data and frame contains "Real.pdf"`
+
+[![7-1.png](https://i.postimg.cc/YCyHkw78/unnamed-2.png)](https://postimg.cc/CRDtHXzf)
+
+Kemudian kita akan menyimpan file zip tersebut dengan cara melakukan `follow TCP Stream` pada data tersebut
+
+mengganti datanya menjadi raw, kemudian kita `save as “201.zip”`
+
+[![7-2.png](https://i.postimg.cc/GpkqKkXY/unnamed-3.png)](https://postimg.cc/nsh4cQbc)
+
+Dan zip tersebut berisi file “Real.pdf”
+
+[![7-3.png](https://i.postimg.cc/kXBszrj7/unnamed-4.png)](https://postimg.cc/xcVLNZDZ)
+
+Yang dimana isinya seperti berikut
+
+[![unnamed.png](https://i.postimg.cc/NMF2Ft2M/unnamed.png)](https://postimg.cc/FdtHC2Z5)
+
 ### Soal 8
+
+Cari paket yang menunjukan pengambilan file dari FTP tersebut
+
+Untuk mendapatkan pengambilan paket maka kita dapat melakukan filter untuk command “RETR” yaitu dengan melakukan filter
+
+`“ftp contains RETR”`. 
+
+tetapi untuk kasus soal ini tidak ditemukan log yang dimana melakukan pengambilan file (download) atau command RETR.
+
+[![8-1.png](https://i.postimg.cc/wMst5kVY/unnamed-1.png)](https://postimg.cc/Lg262Lwx)
+
 ### Soal 9
 
 Pada soal nomor 9 kita diminta untuk mencari file ysng bernamakan secret.zip, kita diharuskan mendownload file tersebut menjadi bentuk .zip dan membuka file nya, namun file tersebut memiliki kunci yang harus didapatkan dari history.txt,
@@ -171,9 +225,24 @@ pada soal ini kita diminta untuk melakukan filter sehingga wireshark hanya menga
 
 ![kemenag1](https://user-images.githubusercontent.com/77099292/134667123-08a4861c-8729-49fc-9f58-e9f0cb6f529d.png)
 
-
-
-
 ### Soal 15
+
+Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
+
+Pertama kita harus tau IP kita terlebih dahulu Salah satunya bisa menggunakan command `ipconfig -all`
+di CMD
+
+[![15-1.png](https://i.postimg.cc/7PCXQ8tw/unnamed-2.png)](https://postimg.cc/grWvn5PT)
+
+Didalamnya terdapat IPv4 yang merupakan IP local komputer kita yaitu 
+
+`192.168.1.6`
+
+
+Selanjutnya kita akan melakukaan filter hanya mengambil paket yang berasal dari ip dengan menggunakan filter 
+
+`ip.src == 192.168.1.6`
+
+[![15-2.png](https://i.postimg.cc/BZdprYRD/unnamed-3.png)](https://postimg.cc/8smLWHpP)
 
   
