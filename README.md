@@ -132,7 +132,7 @@ mengganti datanya menjadi raw, kemudian kita `save as “201.zip”`
 
 Dan zip tersebut berisi file “Real.pdf”
 
-[![7-3.png](https://i.postimg.cc/kXBszrj7/unnamed-4.png)](https://postimg.cc/xcVLNZDZ)
+[![7.png](https://i.postimg.cc/zG5HmpTr/7.png)](https://postimg.cc/2VcShQHc)
 
 Yang dimana isinya seperti berikut
 
