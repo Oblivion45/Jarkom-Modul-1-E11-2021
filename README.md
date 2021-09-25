@@ -246,3 +246,5 @@ Selanjutnya kita akan melakukaan filter hanya mengambil paket yang berasal dari 
 [![15-2.png](https://i.postimg.cc/BZdprYRD/unnamed-3.png)](https://postimg.cc/8smLWHpP)
 
   
+### Kendala yang dialami
+Kami tidak menemukan kendala dalam mengerjakan soal modul 1 praktikum Jarkom.
